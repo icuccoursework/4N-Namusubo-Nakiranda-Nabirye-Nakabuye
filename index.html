@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ICUC | Group Webpage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+
+        header {
+            background-color: #0b6623;
+            color: white;
+            padding: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+
+        header img {
+            height: 80px;
+            width: 80px;
+            border-radius: 50%;
+            object-fit: cover;
+            background: white;
+        }
+
+        h1, h2, h3 {
+            margin: 5px 0;
+        }
+
+        h2 {
+            color: #0b6623;
+        }
+
+        h3 {
+            color: #0b6623;
+            font-weight: normal;
+        }
+
+        .container {
+            margin: 30px 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .card {
+            background-color: white;
+            border-radius: 10px;
+            padding: 20px;
+            width: 280px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 12px rgba(0,0,0,0.2);
+        }
+
+        .btn {
+            display: block;
+            width: 100%;
+            margin: 10px 0 5px 0;
+            padding: 12px;
+            background-color: #0b6623;
+            color: white;
+            font-size: 16px;
+            text-decoration: none;
+            border-radius: 8px;
+            transition: 0.3s;
+        }
+
+        .btn:hover {
+            background-color: #094d1a;
+        }
+
+        .reg-number {
+            color: #333;
+            font-weight: bold;
+            margin-top: 5px;
+        }
+
+        .lecturer {
+            color: #0b6623;
+            font-size: 18px;
+            margin-top: 20px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="ICUC Logo">
+        <h1>Islamic Call University College</h1>
+    </header>
+
+    <div class="container">
+        <h2>E–Commerce & Website Design</h2>
+        <div class="lecturer">
+        Lecturer: Madam Asiimwe Sumayya
+    </div>
+        <h2>Coursework</h2>
+        <h3>Bachelor of Information Technology</h3>
+
+        <!-- Student Cards -->
+        <div class="card">
+            <a href="https://shariif2002.github.io/Modesty-wears/" class="btn">Nakabuye Hafuswa</a>
+            <div class="reg-number">241-22302-7171</div>
+        </div>
+        <div class="card">
+            <a href="https://shariif2002.github.io/Atiqah-Islamic-High-School-/" class="btn">Namusumbo Atika</a>
+            <div class="reg-number">242-22302-7722</div>
+        </div>
+        <div class="card">
+            <a href="#" class="btn">Nabirye Sumaya</a>
+            <div class="reg-number">241-22302-7451</div>
+        </div>
+        <div class="card">
+            <a href="https://shariif2002.github.io/NAK-ISLAMIC-WEARS/" class="btn">Nakiranda Hafuswa</a>
+            <div class="reg-number">241-22302-7161</div>
+        </div>
+    </div>
+</body>
+</html>
